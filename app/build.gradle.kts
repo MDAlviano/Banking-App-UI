@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.alvin.belajar.banking.app"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.alvin.belajar.banking.app"

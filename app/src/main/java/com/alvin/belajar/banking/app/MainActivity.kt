@@ -21,6 +21,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alvin.belajar.banking.app.components.BottomNavigationBar
 import com.alvin.belajar.banking.app.components.CardsSection
+import com.alvin.belajar.banking.app.components.FinanceSection
 import com.alvin.belajar.banking.app.components.WalletSection
 import com.alvin.belajar.banking.app.ui.theme.BankingAppUITheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
@@ -73,7 +74,7 @@ fun HomeScreen() {
             WalletSection()
             CardsSection()
             Spacer(modifier = Modifier.height(16.dp))
-//        FinanceSection()
+            FinanceSection()
 //        CurrenciesSection()
         }
 
